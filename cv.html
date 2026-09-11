@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Rachit Sharma</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23171A21'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23FAFAF7' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="navbar">
+    <span class="name"><a href="index.html">Rachit Sharma</a></span>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+    <nav class="links" aria-label="Primary">
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv.html" class="active">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap" style="display:grid; grid-template-columns:1fr auto; gap:30px; align-items:center; width:100%;">
+      <div>
+        <h1>Curriculum vitae</h1>
+        <p>Awards, talks, technical skills, and teaching — the full PDF is one click away.</p>
+      </div>
+      <svg class="motif" viewBox="0 0 100 100" aria-hidden="true">
+        <line x1="20" y1="20" x2="20" y2="80" stroke="#DEDCD1" stroke-width="1.5"/>
+        <circle cx="20" cy="26" r="3.5" fill="#24518C"/>
+        <circle cx="20" cy="50" r="3.5" fill="#A85A24"/>
+        <circle cx="20" cy="74" r="3.5" fill="#24518C"/>
+        <line x1="28" y1="26" x2="70" y2="26" stroke="#DEDCD1" stroke-width="1.5"/>
+        <line x1="28" y1="50" x2="60" y2="50" stroke="#DEDCD1" stroke-width="1.5"/>
+        <line x1="28" y1="74" x2="55" y2="74" stroke="#DEDCD1" stroke-width="1.5"/>
+      </svg>
+    </div>
+  </section>
+
+  <section style="border-top:none;">
+    <div class="wrap">
+      <div class="cv-cols">
+        <div class="cv-block">
+          <h3>Awards &amp; fellowships</h3>
+          <ul class="plain">
+            <li>Prime Minister's Research Fellowship (PMRF), Cycle 9, 2022 — competitive national fellowship, fewer than 150 awardees per cycle across all science disciplines</li>
+            <li>Best Poster Award, Frontiers in Physics and Statistics (FPS-2024), IISER TVM</li>
+            <li>NET JRF (All India Rank 149) &amp; NET LS (AIR 64), 2020–21</li>
+            <li>GATE AIR 515 (2021), AIR 986 (2020) · JEST AIR 303 (2021) · IIT JAM AIR 426 (2018)</li>
+          </ul>
+        </div>
+
+        <div class="cv-block">
+          <h3>Talks &amp; conferences</h3>
+          <ul class="plain">
+            <li>Invited Seminar, Charles University, Prague — 2026</li>
+            <li>Extended Scalar Sectors at All Angles, CERN, Geneva (Oral) — 2026</li>
+            <li>LHCP 2026, Sorbonne University, Paris (Poster) — 2026</li>
+            <li>Iwate Collider School (ICS 2025), Japan (Poster) — 2025</li>
+            <li>DAE–BRNS HEP Symposium, IIT BHU (Oral) — 2024</li>
+            <li>Phenomenology Symposium (PPC 2024), IIT Hyderabad — 2024</li>
+            <li>ML4HEP Workshop, ICTS Bangalore — 2023</li>
+            <li>DAE–BRNS HEP Symposium, IISER Mohali — 2022</li>
+          </ul>
+        </div>
+
+        <div class="cv-block">
+          <h3>Technical expertise</h3>
+          <div class="skill-row"><span class="k">Programming</span><span>Python, C++, Mathematica, Bash</span></div>
+          <div class="skill-row"><span class="k">Simulation</span><span>MadGraph5, Pythia8, Delphes, CheckMATE, FeynRules, SARAH</span></div>
+          <div class="skill-row"><span class="k">Statistics / ML</span><span>DNNs, BDTs, simulation-based inference (MadMiner), Bayesian inference</span></div>
+          <div class="skill-row"><span class="k">EFT tools</span><span>WILSON, FLAVIO, SMEFT operator bases, χ² recasting frameworks</span></div>
+          <div class="skill-row"><span class="k">Symbolic calc.</span><span>Mathematica, FeynCalc, Package-X</span></div>
+          <div class="skill-row"><span class="k">HPC / data</span><span>SLURM, ROOT, NumPy/SciPy, Git</span></div>
+        </div>
+
+        <div class="cv-block">
+          <h3>Teaching &amp; mentoring</h3>
+          <ul class="plain">
+            <li>Teaching assistant for six semesters — Electrodynamics &amp; Special Relativity, Nuclear &amp; Particle Physics, Electromagnetism, Mechanics</li>
+            <li>Guided four M.Sc. students to completion, each resulting in a peer-reviewed publication; currently mentoring three more</li>
+            <li>Supervised BS–MS thesis projects on spontaneous symmetry breaking and the Higgs mechanism</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cv-download">
+        <!-- To activate: upload your CV PDF alongside this file, named exactly as below,
+             or change the href to wherever you host it. -->
+        <a class="btn" href="./Rachit_Sharma_CV.pdf">Download full CV (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Rachit Sharma</span>
+    <span>Built with care, one leptoquark at a time.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
