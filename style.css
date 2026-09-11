@@ -104,10 +104,10 @@ nav.links a.active{color:var(--ink); font-weight:600; border-bottom-color:var(--
 .profile-row{position:relative; margin-top:-56px;}
 .avatar-lg{
   width:112px; height:112px; border-radius:50%;
-  background:var(--ink); color:var(--paper);
-  display:flex; align-items:center; justify-content:center;
-  font-family:'Newsreader', serif; font-size:2.3rem;
   border:5px solid var(--paper);
+  background:var(--ink);
+  object-fit:cover;
+  display:block;
 }
 .hero-body{margin-top:22px; max-width:640px;}
 h1.title{font-size:clamp(2.5rem, 5vw, 3.5rem); line-height:1.05; margin:0 0 6px;}
